@@ -41,6 +41,8 @@ names = ["Alan Turing", "Leonardo Fibonacci", "Katherine Johnson", "Annie Easley
 
 # A2a:
 
+First_letter = [names[0][0]]
+
 for name in names:
     if True:
         print(names[0][0])
@@ -69,6 +71,7 @@ names = ["Alan Turing", "Leonardo Fibonacci", "Katherine Johnson", "Annie Easley
 # A2c:
 
 
+
 # -------------------------------------------------------------------------------------- #
 
 print("\nQ3a\n")
@@ -82,6 +85,15 @@ list_of_lists = [[1,5,7,3,44,4,1],
 
 # A3a:
 
+set_with_no_duplicates =
+set_with_no_duplicates = []
+for x in list_of_lists:
+    if len(x) == len(set(x)):
+        set_with_no_duplicates.append(x)
+
+print(set_with_no_duplicates)
+
+
 
 # -------------------------------------------------------------------------------------- #
 
@@ -91,6 +103,17 @@ print("\nQ4a\n")
 # they entered
 
 # A4a:
+
+user_input = True
+Enter_a_number = int(input("Enter a number greater than 100:"))
+
+while user_input:
+    if Enter_a_number > 100:
+        print(Enter_a_number)
+    else:
+        print("Number not greater than 100")
+
+
 
 
 print("\nQ4b\n")

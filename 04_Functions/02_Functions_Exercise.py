@@ -5,7 +5,15 @@ print("\nQ1a\n")
 
 # A1a:
 
-
+# def divisors(num1):
+#     result = []
+#     for i in range(1, num1//2 + 1):
+#         if num1 % i == 0:
+#             result.append(i)
+#     result.append(num1)
+#     return result
+#
+# print(divisors(12))
 
 print("\nQ1b\n")
 # Q1b: Write a function which takes in two integers as arguments and returns true if one of the numbers
@@ -14,6 +22,15 @@ print("\nQ1b\n")
 
 # A1b:
 
+# def factor(num2, num3):
+#     if num2 % num3 == 0 or num3 % num2 == 0:
+#         print('True')
+#     else:
+#         print('False')
+#
+#
+#
+# factor(2, 4)
 
 
 # -------------------------------------------------------------------------------------- #
@@ -25,7 +42,14 @@ print("\nQ2a\n")
 
 # A2a:
 
-
+# def alpha(letter):
+#     for i in alphabet:
+#         if letter == i:
+#             print(alphabet.index(i))
+#
+#
+#
+# alpha("d")
 
 print("\nQ2b\n")
 # Q2b: create a function which takes a persons name as an input string and returns an
@@ -34,7 +58,17 @@ print("\nQ2b\n")
 
 # A2b:
 
-
+# def name_call(name):
+#     position = []
+#     all_strings = list(name[0:])
+#     for i in all_strings:
+#         position.append(str(alphabet.index(i)))
+#     print("".join(position))
+#
+#
+#
+#
+# name_call('vivek')
 
 print("\nQ2c\n")
 # Q2c: Create a function which turns this ID into a password. The function should subtract

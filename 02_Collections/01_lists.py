@@ -26,8 +26,8 @@
 # print(shopping_list)
 # print(last_item)
 
-mixed = [1, 2, "three", True, None, ["another", "list"], 6, 7, 8, 8]
-print(mixed)
+# mixed = [1, 2, "three", True, None, ["another", "list"], 6, 7, 8, 8]
+# print(mixed)
 
 # mixed[1] = 2.0
 # print(mixed)
@@ -46,33 +46,58 @@ print(mixed)
 # print(mixed)
 # print(sublist)
 
-#Tuples
+# #Tuples
+#
+# colours = ("red", "red", "blue", "green")
+# print(colours, type(colours))
+#
+# print(colours[0])
+# # colours[0] = "maroon"
+#
+# # Tuples are IMMUTABLE
+#
+# print(colours.count("red"))
+# print(colours.index("green"))
+#
+# list_in_tuple = (
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9]
+# )
+#
+# print(len(list_in_tuple))
+#
+# list_in_tuple[0].append("SUCCESS")
+#
+# print(list_in_tuple)
 
-colours = ("red", "red", "blue", "green")
-print(colours, type(colours))
-
-print(colours[0])
-# colours[0] = "maroon"
-
-# Tuples are IMMUTABLE
-
-print(colours.count("red"))
-print(colours.index("green"))
-
-list_in_tuple = (
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-)
-
-print(len(list_in_tuple))
-
-list_in_tuple[0].append("SUCCESS")
-
-print(list_in_tuple)
 
 
+# Split
 
+text = 'It was the best of times'
+
+text_list = text.split(" ")  #Splitting based on the the space
+print(text_list, type(text_list))
+
+csv = "12,235,3256,456,67,78"
+csv_list = csv.split(",")
+print(csv_list)
+
+# Join
+
+print("---".join(text_list))
+print("".join(csv_list))
+
+
+n = [56, 32, 56, 678, 23, 1, 0]
+
+print(n)
+n.sort()
+print(n)
+
+
+# Look into this later
 
 
 
